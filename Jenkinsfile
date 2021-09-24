@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh 'C:\scripting\jobs assignments\whist\frontend' 
+                sh './jenkins/scripts/test.sh' 
             }
         }
     }
