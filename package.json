@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "main": "src/index.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,5 +50,17 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
     "webpack": "^5.53.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahar2212/frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahar2212/frontend/issues"
+  },
+  "homepage": "https://github.com/shahar2212/frontend#readme",
+  "description": ""
 }
